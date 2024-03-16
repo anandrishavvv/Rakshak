@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitle"
+        android:fontFamily="cursive"
+        android:textColor="#D4EBEB"
+        android:textSize="@dimen/_45ssp"
+        android:layout_above="@+id/girlVector"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/girlVector"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B80202"
+        android:textStyle="bold"
+        android:text="@string/caption"
+        android:textSize="@dimen/_20ssp"
+        android:layout_below="@id/girlVector"
+        app:layout_constraintTop_toBottomOf="@id/girlVector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/getstartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quote"
+        android:text="\t\t\t\tlet's go\t\t\t\t"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FF4081"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+   <ImageView
+       android:id="@+id/VoiceBtn"
+       android:layout_width="@dimen/_50sdp"
+       android:layout_height="@dimen/_50sdp"
+       android:src="@drawable/baseline_mic_24"
+       android:layout_marginTop="@dimen/_20sdp"
+       android:padding="15dp"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/circle_for_voice"
+       android:layout_below="@+id/getstartBtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="©️2023 Campcoder,All Rights Reserved"
+        android:textColor="#18FFFF"/>
+
+</RelativeLayout>

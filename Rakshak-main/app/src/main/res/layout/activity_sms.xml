@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/background"
+    tools:context=".SmsActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_350sdp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="@dimen/_minus45sdp"
+           android:src="@drawable/top_background1" />
+
+
+   </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="@string/smsInstr"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:layout_above="@id/li"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/li"
+       android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:text="Start"
+            app:cornerRadius="10dp"
+            android:backgroundTint="#FF4081"
+            android:id="@+id/startService"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:backgroundTint="#FF4081"
+            app:cornerRadius="10dp"
+            android:text="Stop"
+            android:id="@+id/stopService"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="@string/instruct2"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentBottom="true" />
+
+
+
+</RelativeLayout>

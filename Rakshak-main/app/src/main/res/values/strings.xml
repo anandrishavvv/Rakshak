@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Rakshak</string>
+    <string name="caption">Feel Safe Anytime Anywhere</string>
+    <string name="Aboutus">About Us</string>
+    <string name="RakshakHelpline">Rakshak Important Helplines:-"</string>
+    <string name="HelplineInstr">Tap on No. to Place a Call</string>
+    <string name="inst1">\t\tEnter The number of your Near-ones \n\t\t\t\t\tto send SOS in Emergency.</string>
+    <string name="About_Content">Our Rakshak android app aims to empower women by providing a reliable and easy-to-use tool to help keep them safe in a variety of situations. Our app features emergency alerts, location tracking, safety tips and an SOS button.\n\n We are committed to constantly improving our app and adding new features based on user feedback and the latest trends in personal safety technology. We believe that everyone deserves to feel safe and secure and we are proud to offer an app that can help women achieve that goal. \n\n ThankYou to choose us Hope that you will be safe through our App. </string>
+    <string name="action_settings">Settings</string>
+    <string name="appTitle">Rakshak</string>
+    <string name="DeveloperCon"> Developer Contacts:-</string>
+    <string name="DGP">DGP (Bihar Police)</string>
+    <string name="ADGHead">ADG (Head Quarter )</string>
+    <string name="sp">SP (Weaker Section and Women Cell )</string>
+    <string name="ssp">SSP (Patna)</string>
+    <string name="womensHelpline"> Womens Helpline</string>
+    <string name="WomenDevlopmentCommission">Womens Devlopment Commission</string>
+    <string name="NationalCommission">National Commission For Women</string>
+    <string name="Chairperson">Chairperson (Bihar Mahila Aayog)</string>
+    <string name="ADG">ADG ( Law and Order )</string>
+    <string name="law1">\t\tVishakha Law (1997):-</string>
+    <string name="law2">\t\tChild marriage Act (2006):-</string>
+    <string name="law3">\t\t Dowry  Prohibition (1961):-</string>
+    <string name="law4">\t\tMaternity Benefits(1871):-</string>
+    <string name="law5">\t\tSpecial Marriage  (1954):-</string>
+    <string name="law6">\tMedical Termination Of Pregnancy (1971):-</string>
+    <string name="law7">\t\tIndian Divorce (1969):-</string>
+    <string name="law1D">\t\tVishaka law is an important law for women safety which is implemented in India. The name of this law is Vishaka Judiciary Order, which was issued by the Supreme Court in 1997.\n The main objective of this law is to provide safety and protection to women in the workplace.
+
+Under the Vishaka law, cases of sexual harassment, offensive touching, or mental or physical harassment committed or intended to be committed against women in any organization are redressed. This law provides a platform where women can air their grievances and get justice.</string>
+    <string name="law2D">\t\tThe Child Marriage Act (Child Marriage Act) is made to prevent child marriage and to declare it legally invalid. This act makes it important to protect and develop child potential in India. This act makes marriage of any girl child under any age anywhere or by any religious community considered illegal. The father or religious leader of the one who breaks it or marries can be punished. This act is an important step to establish social justice.</string>
+    <string name="law3D">\t\tThe Dowry Prohibition Act is designed to protect women from forced abduction in the name of dowry. This act is an important step towards enhancing the safety and dignity of women. According to the Act, demanding, giving or threatening dowry in any form is considered illegal. There is a provision of penalty and punishment for its pending,This Act is an important and just measure to ensure the safety and equality of women.</string>
+    <string name="law4D">\t\tThe Maternity Benefit Act in India is designed to provide protection and support to women during their maternity period. \nIt aims to address maternity related problems and ensure comfort and safety to women during the period of motherhood.
+
+In Indian law, various facilities are provided to women under maternity benefits. These benefits may include: maternity leave, health insurance, maternity leave, and minimum wage guarantees.
+
+Under maternity leave, women are provided with a minimum of 26 weeks of leave, of which 8 weeks can be taken after natural delivery. Apart from this, they are also paid a salary, which gives them time to take care of their child.</string>
+    <string name="law5D">\t\tThe Special Marriage Act is a law enacted to federally register marriages between different religions and castes in India. Its main objective is to support love marriage between people of different religion and caste and to ensure social equality and protection of rights.
+
+Under the Special Marriage Act, any person irrespective of religion, caste, or creed can register a marriage under this Act. It has special procedures for registration of marriages and its entry and resolution of disputes through dedicated courts. The Act seeks to enhance individual liberty, fraternity, and social equality and seeks to enrich diversity.</string>
+    <string name="law6D">\tThe Human Abortion Act is a law made to federally legalize abortion in India. Its main objective is to provide women with the right to have an abortion in a safe and legal manner.
+
+Under the Human Abortion Act, according to the prescribed references, the process of abortion can be performed with the recognition of the certified medical promoter by the Department of Mother Power. It is used in special situations, such as to prevent improper growth in the womb, risk to the health of the mother and child, or adverse effects on the health of the woman.</string>
+    <string name="law7D">\nThe Indian Divorce Act is a law designed to federally regulate divorce in India. Its main objective is to provide the married couple with the right to divorce justly and legally.
+
+As per the Indian Divorce Act, married couples can annul their marriage through divorce. It includes the process of divorce, divorce liability, regulation of cases of receiving objections and the process of court hearing under it. The Act ensures the process of divorce in a conflict-free, professional and fair manner. Following it ensures an orderly and fair divorce process for married couples by minimizing conflicts.</string>
+
+    <string name="ChangeLang">Choose Language</string>
+
+    <string name="Slogan">Saviour Of the Women! </string>
+    <string name="Helpline">Important - Helplines </string>
+    <string name="contacts">Add Contacts</string>
+    <string name="SmsAlert">Sms Alert </string>
+    <string name="BasicLaws">Basic Laws</string>
+    <string name="SelfDefence">Self -Defence</string>
+    <string name="CallPolice">Call Police </string>
+    <string name="CallParent">Call Parent </string>
+    <string name="Complaint">Raise a Complaint to women commission </string>
+    <string name="VoiceAlert"> Voice Alert </string>
+    <string name="Say"> "Say" Something </string>
+    <string name="Saying">Try Saying :- \n\n 1. Say " Hello Rakshak " \n2.say "Who developed You ?? "\n 3. say "I am in trouble/ help " to send alert messages \n 4. say "Call Police " To call to police \n5. Say "Who are You " \n6. Say " open App " \n7. Say " I have to complain " \n8. Say "How to use Rakshak"\n9. Say "open Self-Defence \n10. Say "Open Basic Law / helpline / contacts " </string>
+    <string name="command"> Tap on mic to give command . </string>
+    <string name="UserName"> Your Name* </string>
+    <string name="Number1">Number 1*</string>
+    <string name="Number2">Number 2*</string>
+    <string name="Number3">Number 3*</string>
+    <string name="Save">Save</string>
+    <string name="ShowContacts">Show Contacts</string>
+    <string name="Instructions">Call will place to all three Numbers :-\n 1. Tap on Call parent Button To call to 1st Number\n 2.Press Volume up Button 2-3 Times To call to 2nd number\n 3.Press Volume Down Button 2-3 Times To call to 3rd number  </string>
+    <string name="smsInstr">Tap on Start to\n Send SOS In Emergency</string>
+    <string name="videoInstr">This video shows some techniques of self defense</string>
+    <string name="dialogInstr1">1. you can update numbers by clicking add contacts button.</string>
+    <string name="dialogInstr2">2. Use Sms Alert To send SOS While Emergency</string>
+    <string name="dialogInstr3">3. Tap on Call Police Button To Call To police</string>
+    <string name="dialogInstr4">4. Click On Important Helpline To call Helpline Num </string>
+    <string name="dialogInstr5">5. Click On Call Parent Button To call To 1st registered number.</string>
+    <string name="dialogInstr6">6. Press The volume Up button 2/3 times To call on 2nd registered number.</string>
+    <string name="dialogInstr7">7. Press The volume Down button 2/3 times To call on 3rd registered number.</string>
+    <string name="dialogok">Okay</string>
+    <string name="dialogUserInstr">User Instructions </string>
+    <string name="Home">Home</string>
+    <string name="Appusing">AppUsing</string>
+    <string name="videoInstr2">This video shows you how to use Rakshak App.</string>
+    <string name="instruct2"> Attention :-\n 1.After Starting The Service , Please Shake the Device 4 times to send alert to your love-ones while in emergency.\n 2. This service will also work while phones screen is locked. \n 3.Please stop the service after safely reached at Home/safe Places. </string>
+
+</resources>

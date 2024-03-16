@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainBack"
+    tools:context=".Voice">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/voice"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/rela"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/alert1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VoiceAlert"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16ssp"/>
+
+        <ImageView
+            android:id="@+id/VoiceID"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/baseline_mic_24"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:padding="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle_for_voice"
+            android:layout_below="@+id/alert1"/>
+
+            <TextView
+                android:id="@+id/alert2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Say"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@+id/VoiceID"
+                android:fontFamily="sans-serif"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_14ssp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/command"
+                android:layout_below="@+id/alert2"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_14ssp"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rela"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textSize="@dimen/_11ssp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Saying"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainBack"
+    tools:context=".Declaration_Form">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="670dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Privacy Declaration "
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/_15ssp"
+           android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Privacy Policy :-"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At Rakshak , We respect the privacy of our users and are \n committed to protecting their personal information . "
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Information We Collect :-"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" We respect the data of our users so, that's why we don't \n collect users data like phone numbers , names or \nany other personal information . \n \t\t\t\t\tAll the Data is stored in users Device Via Using\n Offline Database ."
+               android:layout_gravity="center_horizontal"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-condensed"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Uses of Permissions :-"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" We Ask For 4 Permissions To Be Allowed By The User.\n\t\tThose Permissions are used for the core functionality of the App.\n We uses Record_Audio permissions for Voice Alert , Send_Message To Send a Alert , Call for Place a Call In Emergency And Location to Send accurate Loaction of the user to Their Loveones While in Panic/Emergency Situation ."
+              android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginEnd="@dimen/_10sdp"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-condensed"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Security :-"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:text=" We take reasonable measures to protect personal information from unauthorized access or disclosure. However , no security measures are foolproof , and we cannot guarantee the security of personal information."
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginEnd="@dimen/_10sdp"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-condensed"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:textColor="@color/black"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Updates to this Policy :-"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:text="We may update this privacy policy from time to time. Users will be notified of any changes by email or through the App. "
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginEnd="@dimen/_10sdp"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-condensed"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:textColor="@color/black"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Contact us :-"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="if you have any questions or concerns about this policy , please contact us at \n campcoderinovations@gmail.com"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginEnd="@dimen/_10sdp"
+               android:layout_marginBottom="@dimen/_10sdp"
+               android:textSize="@dimen/_12ssp"
+               android:fontFamily="sans-serif-condensed"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:textColor="@color/black"/>
+
+       </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:backgroundTint="@color/teal_700">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/PrivacyPolicy"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:text="accept"
+                android:textColor="@color/black"
+                android:layout_marginStart="@dimen/_60sdp"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/PrivacyPolicy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" I accept the Policy of Rakshak."
+               android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"/>
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
